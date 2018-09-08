@@ -15,9 +15,8 @@ bytes1 = f.read()
 print bytes1
 print bytes1.split()
 
-# 类的创建
 
-class  Worker:
+class Worker:
     def __init__(self, name, pay):
         self.name = name
         self.pay = pay
@@ -28,7 +27,7 @@ class  Worker:
     def giveraise(self, percent):
         self.pay *= (1.0+percent)
 
-# 类的实例创建使用
+
 bob = Worker('Bob Smith', 50000)
 sue = Worker('sue Jone', 60000)
 print bob.lastname()

@@ -1,5 +1,7 @@
 # _*_coding:utf_8_*_
 # Author:Alvin.xie
+import math
+from string import split
 edward = ['Edward Gumby', 42]
 john = ['Johe Smith', 50]
 database = [edward, john]
@@ -7,10 +9,11 @@ print(database)
 print database[1]
 
 # 使用import 导入模块，函数调用的时候需要带上模块名称
-import math
+
+
 print math.sqrt(4)
 # 下面这种方式不需要带上模块名称
-from string import split
+
 s = "abc,def,ddd,123,efg"
 print split(s, ',')
 # 分片提取

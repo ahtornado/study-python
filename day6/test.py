@@ -24,9 +24,9 @@ f2_read = f2.readlines()
 print (f2_read)
 f2.close()
 
-#使用for循环可以把内容按字符串输出。
+# 使用for循环可以把内容按字符串输出。
 # 输出一行内容输出一个空行，一行内容一行空格... 因为文件中每行内容后面都有
-#一个换行符，而且print()语句本身就可以换行，如果不想输出空行，就需要使用下面的语句：：print(line.strip())
+# 一个换行符，而且print()语句本身就可以换行，如果不想输出空行，就需要使用下面的语句：：print(line.strip())
 f3 = open('aa','r')
 for line in f3.readlines():
     # print(line)
