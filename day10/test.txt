@@ -1,0 +1,4 @@
+I love python
+[2, 6, 3, 9, 10, 12, 7]
+('a', 'p', 'y', 't', 'h', 'o', 'n')
+{'name': 'tom', 'address': 'shanghai'}
