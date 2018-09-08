@@ -4,7 +4,7 @@
 # @Time    :2018/6/10 17:39
 # @File    :fibs.py
 
-fib = [0,1]
+fib = [0, 1]
 
 number = int(raw_input("please input a number: "))
 
