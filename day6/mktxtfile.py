@@ -1,3 +1,4 @@
+# !/usr/bin/env python
 # -*- coding:utf-8 -*-
 # Author:Alvin Xie
 import os
@@ -31,7 +32,7 @@ def wfile(fname, contents):
 if __name__ == '__main__':
     filename = get_fname()
     lines = get_contents()
-    wfile(filename,lines)
+    wfile(filename, lines)
 
 
 
